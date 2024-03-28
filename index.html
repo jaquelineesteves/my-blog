@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaqueline's blog</title>
+    <link rel="stylesheet" href="assets/form.css"></link>
+</head>
+
+<body>
+  <div class="container dark"> 
+    <header>
+      <div>
+       
+        <h1>My first blog </h1>
+      
+      </div>
+      
+      <nav>
+        <div class="checkbox">         
+          <input type="checkbox" id="checkbox" type="checkbox">       
+          <label for="checkbox"></label>
+        </div>
+      </nav>
+    
+    </header>
+    
+    <div style ="float: left;" >
+    
+      <img class="image" src="assets/image/blog.jpg" alt= "computer and writing"></img>
+    
+    </div>
+        <hr>  
+      <form action ="blog.html" method="post">                
+          <p>Username:</p>    
+          <input id="username" name = username placeholder="your username" />            
+          <p> Title: </p>       
+          <input id="title" name = title placeholder="your title"/>            
+          <p>Content:</p>       
+          <input id="content" name="content" placeholder="your text"/>
+        <section>
+          <button id="submit">Submit</button>
+          <button>go to blog page</button>
+        </section>
+      
+      </form>
+      
+    <script src="js/form.js"></script>
+  
+  </div>
+    
+
+</body>
+<footer>
+  <button id="clear"> clear posts </button>
+</footer>
+</html>
