@@ -2,7 +2,7 @@
 
 
 ## Description
-I spent about 14 hours to finish, needs some improvement but it was great adition to my learning.
+I used about 14 hours to finish, needs some improvement but it was great adition to my learning.
 
 ## Usage
 -In the 'nav' bar we have a icon "☀️" to see the page in light mode and "🌛" to see the dark mode, when the user insert their username, title ,content and click submit , they'll be able to post in the blog page.
