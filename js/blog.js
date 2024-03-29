@@ -34,8 +34,6 @@ function init() {
   });
   }
 
-  //get all posts in a loop and create the cards with the content
-  //for...
 
  /* userNameInput.textContent = storedPosts[0].username;
   titleInput.textContent = storedPosts[0].title;
