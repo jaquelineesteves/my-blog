@@ -50,3 +50,10 @@ input:checked + label:after {
     padding: 10px;;
   
   }
+
+  @media screen and (max-width: 992px) {
+    .card {width: 90%
+    };
+
+  
+  }

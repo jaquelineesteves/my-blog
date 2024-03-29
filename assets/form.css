@@ -50,3 +50,12 @@ button{
   color: black;
   height: 100vh;
 }
+
+@media screen and (max-width: 992px) {
+  .image {width: 90%
+  };
+ .footer {
+  display: flex;
+ }
+
+}

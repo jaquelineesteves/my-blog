@@ -4,7 +4,7 @@ const userNameInput = document.querySelector('#username');
 const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
 const form = document.createElement ('form');
-
+const blogPageButton = document.getElementById ('blogpage')
 
 const submitButton = document.querySelector('#submit');
 var postArray = [];
@@ -45,9 +45,9 @@ submitButton.addEventListener('click', function (event) {
   }
 );
 
-
-
-
+  blogPageButton.addEventListener('click',()=> {
+  window.location.href = 'blog.html'
+})
 
 
 let mode = 'dark';
