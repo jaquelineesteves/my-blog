@@ -44,7 +44,13 @@ function init() {
 }
 init();
 
+document.addEventListener('DOMContentLoaded', function() {
+  const clearButton = document.getElementById('clear');
 
+  clearButton.addEventListener('click', function() {
+      localStorage.clear();
+  });
+});
 
 
 

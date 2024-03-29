@@ -45,10 +45,7 @@ submitButton.addEventListener('click', function (event) {
   }
 );
 
-const clearButton = document.getElementById('clear');
-clearButton.addEventListener('click',()=>{
-  localStorage.clear();
-});
+
 
 
 
